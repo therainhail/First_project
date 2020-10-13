@@ -7,8 +7,12 @@
 		header {border: 1px solid black;}
 		main{border: 1px solid black;}
 		footer {border: 1px solid black;}
-
+.form_auth_style {
+display: grid;
+grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+}
 	</style>
+
 </head>
 <body>
 	<div class="form">
@@ -16,12 +20,12 @@
 			
 		</header>
 		<main>
-		<form class="form_auth_style" action="#" method="post">
-      <label>Введите Ваше Имя</label>
-      <input type="name" name="auth_name" placeholder="Введите Ваше Имя" required >
-      <label>Введите Ваш пароль</label>
-      <input type="password" name="auth_pass" placeholder="Введите пароль" required >
-      <button class="form_auth_button" type="submit" name="form_auth_submit">Войти</button>
+		<form class="form_auth_style" action="#" method="post" >
+      <label>Your Name</label>
+      <input type="name" name="auth_name" placeholder="Your Name" required>
+      <label>Your Password</label>
+      <input type="password" name="auth_pass" placeholder="Your Password" required >
+      <button class="form_auth_button" type="submit" name="form_auth_submit">Sign In</button>
     </form>
 		</main>
 		<footer>
