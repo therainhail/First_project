@@ -12,7 +12,7 @@ print_r($_POST['auth_pass']);
 ?>
 
 <?php 
-if(isset($_POST['auth_email'])) { ?>
-	<p> Yes </p>
+if(isset($_POST['auth_email']) && isset($_POST['auth_name']) && isset($_POST['auth_pass'])) { ?>
+	<p> Dannie bili prinyati</p>
 <?php  header('Refresh: 10; url=http://localhost/index.php'); ?>
 <?php } ?>
