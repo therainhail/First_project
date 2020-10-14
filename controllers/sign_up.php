@@ -6,7 +6,7 @@ if(isset($_POST['auth_email'])) $auth_email = $POST['auth_email'];
 if(isset($_POST['auth_name'])) $auth_name = $POST['auth_email'];
 if(isset($_POST['auth_pass'])) $auth_pass = $POST['auth_email'];
 
-print_r($_POST['auth_email']);
-print_r($_POST['auth_name']);
-print_r($_POST['auth_pass']);
+print_r($_POST['auth_email']<br>);
+print_r($_POST['auth_name']<br>);
+print_r(Ваш пароль: $_POST['auth_pass']);
 ?>
