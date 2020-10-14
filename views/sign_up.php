@@ -1,4 +1,5 @@
-<?php
+<?php {
+?>
     <form class="form_auth_style" style="
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
@@ -12,4 +13,7 @@
       <input type="password" name="auth_pass" placeholder="Your Password" required >
       <button class="form_auth_button" type="submit" name="form_auth_submit">Sign In</button>
     </form>
+<?php
+}
+
 ?>
