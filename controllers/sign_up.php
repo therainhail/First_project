@@ -6,7 +6,7 @@ if(isset($_POST['auth_email'])) $auth_email = $POST['auth_email'];
 if(isset($_POST['auth_name'])) $auth_name = $POST['auth_name'];
 if(isset($_POST['auth_pass'])) $auth_pass = $POST['auth_pass'];
 
-filename = 'data.txt';
+$filename = 'data.txt';
 $f_hdl = fopen($filename, 'w');
 fwrite($f_hdl, $auth_email);
 fwrite($f_hdl, $auth_name);
