@@ -4,6 +4,8 @@
     display: grid;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     width: 50%;
+    background-color: #7300AB;
+    border-radius: 10px;
     border: 1px solid black;"action="../controllers/sign_up.php" method="POST" >
     <label align="center">Your email</label>
       <input type="email" name="auth_email" placeholder="Your Email" required>
