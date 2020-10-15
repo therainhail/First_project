@@ -13,3 +13,4 @@ if(sset($_POST['auth_name']) && isset($_POST['auth_pass'])) { ?>
 	<p> Vi voshli</p>
 <?php  header('Refresh: 10; url=http://localhost/index.php'); ?>
 <?php } ?>
+
